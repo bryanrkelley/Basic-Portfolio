@@ -1,0 +1,41 @@
+<style>
+html, body {
+  margin: 0;
+  padding 0;
+}
+body {
+  background: #EFEEE7;
+  color: #473634;
+
+}
+a {
+  color:#D4304C;
+}
+header h1 {
+  text-align: center;
+  background: #333333;
+  color: white;
+  margin: 0;
+  padding: .5em;
+}
+.content {
+  padding: 0 1em;
+  overflow: auto;
+}
+.bio {
+  float: left;
+  width: 75%;
+  overflow: auto;
+  
+}
+.contact {
+  float: right;
+  width: 25%;
+}
+
+.bio img {
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+</style>
