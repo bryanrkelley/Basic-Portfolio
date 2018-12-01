@@ -8,9 +8,11 @@ body {
   color: #473634;
 
 }
+
 a {
   color:#D4304C;
 }
+
 header h1 {
   text-align: center;
   background: #333333;
@@ -18,16 +20,19 @@ header h1 {
   margin: 0;
   padding: .5em;
 }
+
 .content {
   padding: 0 1em;
   overflow: auto;
 }
+
 .bio {
   float: left;
   width: 75%;
   overflow: auto;
   
 }
+
 .contact {
   float: right;
   width: 25%;
