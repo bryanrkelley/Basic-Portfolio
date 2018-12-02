@@ -13,12 +13,27 @@ a {
   color:#D4304C;
 }
 
-header h1 {
-  text-align: center;
+header {
   background: #333333;
   color: white;
   margin: 0;
+  height: 40%;
+}
+
+header h1 {
+  text-align: left;
+  color: white;
+  margin: 0;
   padding: .5em;
+  float: left;
+}
+
+header h2 {
+  text-align: right;
+  color: white;
+  margin: 0;
+  padding: .5em;
+  float: right;
 }
 
 .content {
