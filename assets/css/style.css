@@ -17,15 +17,17 @@ header {
   background: #333333;
   color: white;
   margin: 0;
-  height: 40%;
+  height: 20%;
 }
 
 header h1 {
   text-align: left;
   color: white;
   margin: 0;
-  padding: .5em;
+  padding-top: .5em;
+  padding-left: .5em;
   float: left;
+  width: 48%;
 }
 
 header h2 {
@@ -33,7 +35,8 @@ header h2 {
   color: white;
   margin: 0;
   padding: .5em;
-  float: right;
+  float: left;
+  width: 48%;
 }
 
 .content {
