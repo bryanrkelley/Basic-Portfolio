@@ -18,7 +18,6 @@ header {
   color: white;
   margin: 0;
   height: 10vh;
-  font
 }
 
 header h1 {
@@ -63,5 +62,14 @@ header h2 {
   float: left;
   padding-right: 1em;
   padding-bottom: 1em;
+}
+
+footer {
+  background: #333333;
+  color: white;
+  margin: 0;
+  height: 5vh;
+  text-align: right;
+  padding: .5vh;
 }
 </style>
