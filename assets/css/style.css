@@ -17,7 +17,8 @@ header {
   background: #333333;
   color: white;
   margin: 0;
-  height: 20%;
+  height: 10vh;
+  font
 }
 
 header h1 {
@@ -27,6 +28,7 @@ header h1 {
   padding-top: .5em;
   padding-left: .5em;
   float: left;
+  font-size: 2vw;
   width: 48%;
 }
 
@@ -36,6 +38,7 @@ header h2 {
   margin: 0;
   padding: .5em;
   float: left;
+  font-size: 1.5vw;
   width: 48%;
 }
 
