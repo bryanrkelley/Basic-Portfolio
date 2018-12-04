@@ -1,75 +1,77 @@
 <style>
-html, body {
-  margin: 0;
-  padding 0;
-}
-body {
-  background: #EFEEE7;
-  color: #473634;
+  html, body {
+    margin: 0;
+    padding 0;
+  }
 
-}
+  body {
+    background: #EFEEE7;
+    color: #473634;
 
-a {
-  color:#D4304C;
-}
+  }
 
-header {
-  background: #333333;
-  color: white;
-  margin: 0;
-  height: 10vh;
-}
+  a {
+    color:#D4304C;
+  }
 
-header h1 {
-  text-align: left;
-  color: white;
-  margin: 0;
-  padding-top: .5em;
-  padding-left: .5em;
-  float: left;
-  font-size: 2vw;
-  width: 48%;
-}
+  header {
+    background: #333333;
+    color: white;
+    margin: 0;
+    height: 10vh;
+  }
 
-header h2 {
-  text-align: right;
-  color: white;
-  margin: 0;
-  padding: .5em;
-  float: left;
-  font-size: 1.5vw;
-  width: 48%;
-}
+  header h1 {
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding-top: .5em;
+    padding-left: .5em;
+    float: left;
+    font-size: 2vw;
+    width: 48%;
+  }
 
-.content {
-  padding: 0 1em;
-  overflow: auto;
-}
+  header h2 {
+    text-align: right;
+    color: white;
+    margin: 0;
+    padding: .5em;
+    float: left;
+    font-size: 1.5vw;
+    width: 48%;
+  }
 
-.bio {
-  float: left;
-  width: 75%;
-  overflow: auto;
+  .content {
+    padding: 0 1em;
+    overflow: auto;
+  }
+
+  .bio {
+    float: left;
+    width: 75%;
+    overflow: auto;
+    
+  }
+
+  .contact {
+    float: right;
+    width: 25%;
+  }
+
+  .bio img {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+  }
+
+  footer {
+    background: #333333;
+    color: white;
+    margin: 0;
+    height: 5vh;
+    text-align: right;
+    padding: .5vh;
+  }
   
-}
-
-.contact {
-  float: right;
-  width: 25%;
-}
-
-.bio img {
-  float: left;
-  padding-right: 1em;
-  padding-bottom: 1em;
-}
-
-footer {
-  background: #333333;
-  color: white;
-  margin: 0;
-  height: 5vh;
-  text-align: right;
-  padding: .5vh;
-}
 </style>
