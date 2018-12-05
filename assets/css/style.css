@@ -18,7 +18,7 @@
     background: #333333;
     color: white;
     margin: 0;
-    height: 10vh;
+    height: 10%;
   }
 
   header h1 {
@@ -28,8 +28,7 @@
     padding-top: .5em;
     padding-left: .5em;
     float: left;
-    font-size: 2vw;
-    width: 48%;
+    font-size: 30px;
   }
 
   header h2 {
@@ -37,9 +36,13 @@
     color: white;
     margin: 0;
     padding: .5em;
-    float: left;
-    font-size: 1.5vw;
-    width: 48%;
+    float: right;
+    font-size: 25px;
+  }
+
+  a{
+    color: gray;
+    text-decoration: none;
   }
 
   .content {
@@ -75,15 +78,15 @@
   }
 
   input[type=text], select, textarea {
-    width: 100%; /* Full width */
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
 
   input[type=submit] {
