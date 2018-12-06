@@ -1,5 +1,5 @@
-<style>
-  html, body {
+  html,
+  body {
     margin: 0;
     padding 0;
   }
@@ -10,11 +10,46 @@
 
   }
 
+/* Anchors and anchor usages */
+
   a {
-    color:#D4304C;
+    color: blue;
   }
 
-  header {
+  nav a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  a:hover {
+    color: rgb(39, 161, 161);
+  }
+
+  a:active {
+    color: yellow;
+  }
+
+  .nav-link {
+    text-align: right;
+    float: right;
+  }
+
+  .nav-item {
+    text-align: right;
+    float: right;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+/* Header and header usages */
+
+  /* header {
     background: #333333;
     color: white;
     margin: 0;
@@ -31,19 +66,14 @@
     font-size: 30px;
   }
 
-  header h2 {
+  header nav {
     text-align: right;
     color: white;
     margin: 0;
     padding: .5em;
     float: right;
     font-size: 25px;
-  }
-
-  a{
-    color: gray;
-    text-decoration: none;
-  }
+  } */
 
   .content {
     padding: 0 1em;
@@ -54,7 +84,8 @@
     float: left;
     width: 75%;
     overflow: auto;
-    
+    padding-top: 1em;
+
   }
 
   .contact {
@@ -77,13 +108,16 @@
     padding: .5vh;
   }
 
-  input[type=text], select, textarea {
+  input[type=text],
+  select,
+  textarea {
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -108,4 +142,35 @@
     padding: 20px;
   }
 
-</style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: 210px 210px;
+    grid-auto-rows: 210px;
+    /* grid-template-columns: repeat(auto-fill, minmax(210px, 2fr)); */
+    grid-gap: 10px;
+
+  }
+
+  .box {
+    position: relative;
+    justify-content: center;
+    /* overflow: hidden; */
+    /* icons extend past the boxes. Hididng overflow fixes this. */
+  }
+
+  .icon {
+    height: 100%;
+    /* width: 200px; */
+    /* object-fit: cover; */
+
+  }
+
+  p.banner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* width: 170px; */
+    /* padding: 5px 10px 5px 20px; */
+    background-color: #4aaaa5;
+    color: #fff;
+  }
