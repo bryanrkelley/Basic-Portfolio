@@ -1,13 +1,13 @@
   html,
   body {
-    margin: 0;
-    padding 0;
+    height: 100%;
   }
 
   body {
     background: #EFEEE7;
     color: #473634;
-
+    display: flex;
+    flex-direction: column;
   }
 
 /* Anchors and anchor usages */
@@ -54,10 +54,10 @@
     color: white;
     margin: 0;
     height: 10%;
-  }
+  } 
 
   header h1 {
-    text-align: left;
+    text-align: center;
     color: white;
     margin: 0;
     padding-top: .5em;
@@ -78,6 +78,7 @@
   .content {
     padding: 0 1em;
     overflow: auto;
+    flex: 1 0 auto;
   }
 
   .bio {
@@ -99,13 +100,23 @@
     padding-bottom: 1em;
   }
 
+  .portfolio {
+    text-align: center;
+  }
+
+
+
   footer {
     background: #333333;
     color: white;
-    margin: 0;
+    margin-top: 10px;
     height: 5vh;
     text-align: right;
     padding: .5vh;
+  }
+
+  .footer {
+    flex-shrink: 0;
   }
 
   input[type=text],
@@ -148,6 +159,7 @@
     grid-auto-rows: 210px;
     /* grid-template-columns: repeat(auto-fill, minmax(210px, 2fr)); */
     grid-gap: 10px;
+    margin-left: 33.3333333%;
 
   }
 
