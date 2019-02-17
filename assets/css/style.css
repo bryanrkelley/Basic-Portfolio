@@ -1,189 +1,184 @@
-  html,
-  body {
+html,
+/* color palette
+    gold: #e59a39;
+    navy: #1c374e;
+    light-gray: #f9f9f9;
+    red: #cf2b1e;
+    gray: #888888;
+    teal: #1ea88e;
+    black: #0c1212;
+*/
+
+body {
     height: 100%;
-  }
-
-  body {
-    background: #EFEEE7;
-    color: #473634;
-    display: flex;
-    flex-direction: column;
-  }
-
-
-/* Anchors and anchor usages */
-
-  a {
-    color: #3030dd;
-  }
-
-  nav a {
-    color: gray;
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: #8630dd;
-  }
-
-  a:hover {
-    color: rgb(39, 161, 161);
-  }
-
-  a:active {
-    color: #30dddd;
-  }
-
-  .nav-link {
-    text-align: right;
-    float: right;
-  }
-
-  .nav-item {
-    text-align: right;
-    float: right;
-  }
-
-  .navbar {
-    display: block;
-  }
-
-/* Header and header usages */
-
-  /* header {
-    background: #333333;
-    color: white;
-    margin: 0;
-    height: 10%;
-  } 
-
-  header h1 {
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding-top: .5em;
-    padding-left: .5em;
-    float: left;
-    font-size: 30px;
-  }
-
-  header nav {
-    text-align: right;
-    color: white;
-    margin: 0;
-    padding: .5em;
-    float: right;
-    font-size: 25px;
-  } */
-
-  .content {
-    padding: 0 1em;
-    overflow: auto;
-    flex: 1 0 auto;
-  }
-
-  .bio {
-    float: left;
-    width: 75%;
-    overflow: auto;
-    padding-top: 1em;
-
-  }
-
-  .contact {
-    float: right;
-    width: 25%;
-  }
-
-  .bio img {
-    float: left;
-    padding-right: 1em;
-    padding-bottom: 1em;
-  }
-
-  .portfolio {
-    text-align: center;
-  }
-
-
-
-  .footer {
-    background: #333333;
-    color: white;
-    text-align: right;
-    padding-right: 25px;
-    /* position: absolute; */
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    line-height: 35px;
 }
 
-  input[type=text],
-  select,
-  textarea {
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.content {
+    flex: 1 0 auto;
 
-  input[type=submit]:hover {
-    background-color: #064d26;
-  }
+}
 
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+.ui.floating.message {
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: 210px 210px;
-    grid-auto-rows: 210px;
-    /* grid-template-columns: repeat(auto-fill, minmax(210px, 2fr)); */
-    grid-gap: 10px;
-    margin-left: 33.3333333%;
+.home-title {
+    font-family: library-3-am !important;
+    color: #cf2b1e !important;
+    font-weight: 600 !important;
+    font-size: 4em !important;
+}
 
-  }
+#home-text {
+    width: 385px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .box {
-    position: relative;
-    justify-content: center;
-    float: center;
-    /* overflow: hidden; */
-    /* icons extend past the boxes. Hididng overflow fixes this. */
-  }
+h1,
+h2 {
+    color: #1c374e;
+}
 
-  .icon {
+h3 {
+    color: #0c1212;
+}
+
+p {
+    color: #888888;
+}
+
+.ui.large.image {
+    display: block;
     height: 100%;
     width: 200px;
-    /* object-fit: cover; */
+}
 
-  }
 
-  p.banner {
-    position: absolute;
-    bottom: 0;
+.brewery-distance {
+    margin-top: 1rem !important;
+}
+
+.home-img {
+    margin-top: 40px;
+}
+
+.home-button {
+    display: block !important;
+    margin: 15px auto 0px auto !important;
+    width: 310px;
+}
+
+#browse-button {
+    background-color: #cf2b1e;
+    margin-top: 50px !important;
+}
+
+#brewery-site-button {
+    background-color: #cf2b1e;
+
+}
+
+.ui.button {
+    border-radius: 1.5rem !important;
+    box-shadow: 1px 1px 10px -1px #888888 !important;
+    margin: .25rem;
+}
+
+#menu {
+    background-color: #1c374e;
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 10px -1px #888888 !important;
+}
+
+.navItem {
+    color: #f9f9f9;
+    font-size: 1.25em;
+}
+
+.ui.secondary.menu a.item:hover {
+    background: rgb(148, 148, 148);
+    color: rgba(202, 202, 202, 0.95);
+}
+
+.get-started-button {
+    color: white;
+}
+
+#brewGallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ui.huge.header {
+    font-size: 3em;
+}
+
+.ui.header {
+    color: #1c374e;
+}
+
+.ui.bottom.attached.label {
+    padding: .25rem;
+}
+
+/* ==========================  FOOTER  ======================== */
+
+.footer {
+    margin-top: 40px !important;
+}
+
+.ui.vertical.segment {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.ui.inverted.segment {
+    background: #1c374e;
+}
+
+/* ==========================MODAL========================== */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
     width: 100%;
-    /* width: 170px; */
-    /* padding: 5px 10px 5px 20px; */
-    background-color: #4aaaa5;
-    color: #fff;
-  }
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #383838; */
+    width: 75%;
+    box-shadow: 0px 1px 15px 5px #888888 !important;
+    border-radius: 1.5rem !important;
+}
+
+/* ==================================================== */

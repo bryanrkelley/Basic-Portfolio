@@ -1,82 +1,171 @@
-<DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bryan Kelley Biography</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    </head>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Site Properties -->
+    <title>BK-Portfolio</title>
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!-- css -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
+    <div class="content">
+        <!-- NavBar -->
+        <div class="ui stackable secondary menu" id="menu">
+            <div class="left item">
+                <p class="navItem">Bryan Kelley</p>
+            </div>
+            <a class="item" href="index.html">
+                <p class="navItem">Home</p>
+            </a>
+            <a class="item" href="portfolio.html">
+                <p class="navItem">Portfolio</p>
+            </a>
+            <a class="item" href="contact.html">
+                <p class="navItem">Contact/Questions</p>
+            </a>
+        </div>
+        <!-- NavBar End -->
 
-        <div class="content">
 
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand">Bryan Kelley</a>
-                    <div class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact/Questions</a>
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </div>
-                </nav>
-            </header>
+        <!-- Portfolio Page Content -->
+        <div class="ui sizer vertical segment">
+            <div class="ui huge center aligned header">Portfolio</div>
+        </div>
 
-            <div class="mainContent">
-                <div class="portfolio">
-                    <h1>Portfolio</h1>
+        <!-- TODO: Create JS file that dynamically adds additional columns -->
+        <div class="ui middle aligned center aligned grid stackable container home-page">
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://studybuddies-uw2018.github.io/HopOn/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/hop.png" alt="Hop On" title="Hop On">
+                        <div class="ui bottom attached label">Hop On</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://studybuddies-uw2018.github.io/HopOn/index.html" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/StudyBuddies-UW2018/HopOn" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
                 </div>
-                <div class="wrapper">
-                    <div class="box">
-                        <img class="icon" src="assets/images/hop.png" alt="Hop On Logo" title="Hop On Logo">
-                        <p class="banner"> <a href="https://studybuddies-uw2018.github.io/HopOn/" target="_blank">Hop
-                                On</a> </p>
-                    </div>
-                    <div class="box">
-                        <img class="icon" src="assets/images/guessing_game.png" alt="Word Guessing Game" title="Word Guessing Game">
-                        <p class="banner"> <a href="https://bryanrkelley.github.io/Word_Guess_Game/" target="_blank">Word
-                                Guess Game! </a> </p>
-                    </div>
-                    <div class="box">
-                        <img class="icon" src="assets/images/crystal_collector.png" alt="Crystal Collector" title="Crystal Collector">
-                        <p class="banner"> <a href="https://bryanrkelley.github.io/Unit-4-Game/" target="_blank">Crystal
-                                Collector! </a></p>
-                    </div>
-                    <div class="box">
-                        <img class="icon" src="assets/images/nintendo_trivia.png" alt="Nintendo Trivia" title="Nintendo Trivia">
-                        <p class="banner"> <a href="https://bryanrkelley.github.io/TriviaGame/" target="_blank">Nintendo
-                                Trivia!</a></p>
-                    </div>
-                    <div class="box">
-                        <img class="icon" src="assets/images/gifTastic.gif" alt="GifTastic" title="GifTastic">
-                        <p class="banner"> <a href="https://bryanrkelley.github.io/GifTastic/" target="_blank">GifTastic!</a></p>
-                    </div>
-                    <div class="box">
-                        <img class="icon" src="assets/images/fireBase.png" alt="Train Scheduler" title="Train Scheduler">
-                        <p class="banner"> <a href="https://bryanrkelley.github.io/Firebase/" target="_blank">Train
-                                Scheduler!</a></p>
-                    </div>
+            </div>
+
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://bryanrkelley.github.io/Word_Guess_Game/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/guessing_game.png" alt="Word Guessing Game"
+                            title="Word Guessing Game">
+                        <div class="ui bottom attached label">Word Guessing Game!</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://bryanrkelley.github.io/Word_Guess_Game/" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/bryanrkelley/Word_Guess_Game" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://bryanrkelley.github.io/Unit-4-Game/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/crystal_collector.png" alt="Crystal Collector"
+                            title="Crystal Collector">
+                        <div class="ui bottom attached label">Crystal Collector!</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://bryanrkelley.github.io/Unit-4-Game/" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/bryanrkelley/Unit-4-Game" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://bryanrkelley.github.io/TriviaGame/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/nintendo_trivia.png" alt="Nintendo Trivia" title="Nintendo Trivia">
+                        <div class="ui bottom attached label">Nintendo Trivia!</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://bryanrkelley.github.io/TriviaGame/" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/bryanrkelley/TriviaGame" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://bryanrkelley.github.io/GifTastic/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/gifTastic.gif" alt="GifTastic" title="GifTastic">
+                        <div class="ui bottom attached label">GifTastic!</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://bryanrkelley.github.io/GifTastic/" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/bryanrkelley/GifTastic" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="five wide column">
+                <div class="ui large middle aligned center aligned image">
+                    <a href="https://bryanrkelley.github.io/Firebase/" class="ui large image" target="_blank">
+                        <img class="ui large image" src="assets/images/fireBase.png" alt="Train Scheduler" title="Train Scheduler">
+                        <div class="ui bottom attached label">Train Scheduler!</div>
+                    </a>
+                    <button class="ui button">
+                        <a href="https://bryanrkelley.github.io/Firebase/" target="_blank" class="btn btn-primary">View
+                            Project</a>
+                    </button>
+                    <button class="ui button">
+                        <a href="https://github.com/bryanrkelley/Firebase" target="_blank" class="portfolio-gitlink">View
+                            on GitHub</a>
+                    </button>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Portfolio Page End -->
 
-        <footer class="footer">
-            <p>Copyright 2019 - All rights reserved &copy;</p>
-        </footer>
+    <!-- footer -->
+    <div class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <div class="ui horizontal inverted small divided link list">
+                <a class="item" href="index.html">Main Page</a>
+                <a class="item" href="contact.html">Contact Me</a>
+                <p>Copyright 2019 - All rights reserved &copy;</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
 
-        <!-- My JS script -->
-        <script src="assets/javascript/script.js"></script>
+    <!-- ajax/jQuery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Semantic UI script -->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <!-- My JS script -->
+    <script src="assets/javascript/script.js"></script>
+</body>
 
-    </body>
-
-    </html>
+</html>
